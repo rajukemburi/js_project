@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Raju",
+      "password": "raju@123"    ,
+      "email": "rajukemburi2004@gmail.com",
+      "mobile": "9652972004"
+    },
+    {
+      "id": "2",
+      "username": "harshi",
+      "password": "harshi@123",
+      "email": "harshi2004@gmail.com",
+      "mobile": "8712250472"
+    },
+    {
+      "id": "5",
+      "username": "vamsi",
+      "password": "vamsi@123",
+      "email": "vamsi@gmail.com",
+      "mobile": "1234567891"
+    }
+  ]
+}
