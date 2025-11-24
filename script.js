@@ -3,9 +3,9 @@ const goto_login = () => {
     window.location.href = "./login.html"
 }
 
-const goto_register = () => {
-    window.location.href = "./register.html"
-}
+// const goto_register = () => {
+//     window.location.href = "./register.html"
+// }
 
 
 const login_user = async () => {
