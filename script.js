@@ -17,7 +17,7 @@ const login_user = async () => {
 
 
     let all_users = null
-    users_data = await fetch("http://127.0.0.1:5501/data.json")
+    users_data = await fetch("data.json")
         .then(data => data.json())
         .then(data => all_users = data)
         .catch(err => console.error("Data noot Fetched", err))
@@ -31,7 +31,7 @@ const login_user = async () => {
         if (element.email === user_mail && element.password === user_password) {
             user_exists = true
             alert("User Found")
-            window.location.href = "./banner.html"
+            window.location.href = "banner.html"
         } else if (user_exists == false) {
             alert("Username or password wrong")
         }
